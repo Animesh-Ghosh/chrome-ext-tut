@@ -1,0 +1,20 @@
+{
+  "name": "Example Extension",
+  "description": "An example extension following Google Chrome extension tutorial.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background":
+  {
+    "service_worker": "background.js"
+  },
+  "permissions":
+  [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+  	"default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
